@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Tranding from "./components/Tranding";
-import Populer from "./components/Populer.jsx";
+import Populer from "./components/Popular";
 import Movie from "./components/Movie";
 import Tvshows from "./components/Tvshows";
 import People from "./components/People";
@@ -9,9 +9,9 @@ import About from "./components/About";
 import Contect from "./components/Contect";
 import Moviedetails from "./components/Moviedetails";
 import TvDetails from "./components/TvDetails";
-import PersonDetails from "./components/PersonDetails";
+import PersonDetails from "./components/Persondetails";
 import Trailer from "./components/partials/Trailer";
-import NotFound from "./components/NotFouynd.jsx";
+import NotFound from "./components/NotFound";
 
 const App = () => {
     return (
