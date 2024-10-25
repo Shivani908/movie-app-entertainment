@@ -38,8 +38,13 @@ const Sidenav = () => {
       className='hover:bg-[#6556CD] hover:text-white duration-300 p-3 rounded-lg'>
      <i className ="ri-tv-line p-2"></i>Tv Shows</Link>
      <Link 
-     to="/person" className ='hover:bg-[#6556CD] hover:text-white duration-300 p-3 rounded-lg'>
+     to="/persondetails" className ='hover:bg-[#6556CD] hover:text-white duration-300 p-3 rounded-lg'>
      <i className ="ri-group-line p-2"></i>People</Link>
+
+     {/* <Link 
+     to="/person" className ='hover:bg-[#6556CD] hover:text-white duration-300 p-3 rounded-lg'>
+     <i className ="ri-group-line p-2"></i>People</Link> */}
+
      <Link 
      to="/popular"
      className ='hover:bg-[#6556CD] hover:text-white duration-300 p-3 rounded-lg'>
