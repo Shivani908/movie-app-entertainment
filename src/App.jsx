@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Tranding from "./components/Tranding";
-import Populer from "./components/Popular";
+import Populer from "./components/Populer";
 import Movie from "./components/Movie";
 import Tvshows from "./components/Tvshows";
 import People from "./components/People";
